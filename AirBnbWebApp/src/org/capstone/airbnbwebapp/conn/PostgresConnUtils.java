@@ -38,7 +38,7 @@ public class PostgresConnUtils {
      // URL Connection for MySQL:
      // Example: 
      // jdbc:mysql://localhost:3306/simplehr
-     String connectionURL = "jdbc:mysql://" + hostName + ":5432/" + dbName;
+     String connectionURL = "jdbc:postgresql://" + hostName + ":5432/" + dbName;
   
      Connection conn = DriverManager.getConnection(connectionURL, userName,
              password);

@@ -9,8 +9,8 @@ public class ConnectionUtils {
 	 public static Connection getConnection() 
              throws ClassNotFoundException, SQLException, IOException {
 
-       return OracleConnUtils.getOracleConnection();
-     //	 return PostgresConnUtils.getPostGreSQLConnection();
+      // return OracleConnUtils.getOracleConnection();
+     	 return PostgresConnUtils.getPostGreSQLConnection();
    }
     
    public static void closeQuietly(Connection conn) {
