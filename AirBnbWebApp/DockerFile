@@ -1,5 +1,5 @@
 FROM tomcat:jre8
-MAINTAINER Tung Nguyen <tongueroo@gmail.com>
+MAINTAINER Indu Gopalakrishnan
 
 # Debugging tools: A few ways to handle debugging tools.
 # Trade off is a slightly more complex volume mount vs keeping the image size down.
